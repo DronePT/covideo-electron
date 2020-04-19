@@ -25,7 +25,7 @@ class WebSocket {
   private eventHandler: Map<string, (data: never) => void> = new Map();
 
   constructor() {
-    this.socket = io('http://covideo.andrelabs.com');
+    this.socket = io('https://covideo.andrelabs.com');
 
     this.socket.on('connect', () => {
       console.log('socketio connected', this.socket.id);
