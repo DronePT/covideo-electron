@@ -1,0 +1,20 @@
+.HomePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 100vw;
+  height: 100vw;
+
+  .ButtonsContainer {
+    width: 80%;
+
+    button {
+      margin-top: 0.5rem;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}
